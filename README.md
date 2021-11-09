@@ -1,2 +1,2 @@
-# node-mern-cart-apis
-Node Mern Cart Deployed API's
+# React-Node-Todo
+Todo Application by using React and Node
