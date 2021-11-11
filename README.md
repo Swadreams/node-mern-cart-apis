@@ -11,8 +11,8 @@ SR => Feature => Type => URL => Headers => Required => Fields
 
 #User
 
-1.  Register => [POST] => [/user/register] => null [email, password]
-2.  Login => [POST] => [/user/login] => null => [email, password]
+1.  Register => [POST] => [/user/register] => null [email as username, password]
+2.  Login => [POST] => [/user/login] => null => [email as username, password]
 3.  Profile => [GET] => [/user/profile] => [token] => null
 4.  Update Profile => [POST] => [user/profile] =>[token] => [name, phone]
 5.  Update Addresses => [POST] => [user/address] => [email, address: [{}]]
