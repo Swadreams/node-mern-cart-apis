@@ -15,7 +15,7 @@ SR => Feature => Type => URL => Headers => Required => Fields
 2.  Login => [POST] => [/user/login] => null => [email as username, password]
 3.  Profile => [GET] => [/user/profile] => [token] => null
 4.  Update Profile => [POST] => [user/profile] =>[token] => [name, phone]
-5.  Update Addresses => [POST] => [user/address] => [email, address: [{}]]
+5.  Update Addresses => [POST] => [user/address] => [email, address: [{title: string, addressLine1: string, addressLine2: string, city:sting, zip:string, state:string}]]
 6.  Remove Address => [DELETE] => [user/address/:id] => [token]
 
 #Product
